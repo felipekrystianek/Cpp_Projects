@@ -8,7 +8,8 @@ double maks = -1;
 double liczba;
 
 int main() {
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < 4; i++)
+    {
         std::cin >> liczba;
 
         if (liczba < 0) {
@@ -24,3 +25,4 @@ int main() {
 
     return 0;
 }
+

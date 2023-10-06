@@ -1,3 +1,4 @@
-/Users/krystianfilipek/CLionProjects/Cpp_Projects/cmake-build-debug/CMakeFiles/Cpp_Projects.dir
+/Users/krystianfilipek/CLionProjects/Cpp_Projects/cmake-build-debug/CMakeFiles/Main.dir
+/Users/krystianfilipek/CLionProjects/Cpp_Projects/cmake-build-debug/CMakeFiles/How_Old_Am_I.dir
 /Users/krystianfilipek/CLionProjects/Cpp_Projects/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/krystianfilipek/CLionProjects/Cpp_Projects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
