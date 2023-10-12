@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Cpp_Projects",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "2_app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_app-Debug-f3c280d59084513f6ee5.json",
+					"name" : "2_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3_app::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3_app-Debug-6a443a2cfc8588631a8c.json",
+					"name" : "3_app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "How_Old_Am_I::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-How_Old_Am_I-Debug-a2a14f9d64ac4144a9f7.json",
+					"name" : "How_Old_Am_I",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Main-Debug-d346365af8918966bdd0.json",
+					"name" : "Main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/krystianfilipek/CLionProjects/Cpp_Projects/cmake-build-debug",
+		"source" : "/Users/krystianfilipek/CLionProjects/Cpp_Projects"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
