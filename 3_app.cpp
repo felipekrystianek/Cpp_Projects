@@ -32,5 +32,6 @@ int main() {
         std::cout << "Wartości a i b są praktycznie równe." << std::endl;
     }
 
+
     return 0;
 }
