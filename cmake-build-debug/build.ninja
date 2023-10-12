@@ -164,6 +164,37 @@ build 3_app: CXX_EXECUTABLE_LINKER__3_app_Debug CMakeFiles/3_app.dir/3_app.cpp.o
   TARGET_FILE = 3_app
   TARGET_PDB = 3_app.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 4_app
+
+
+#############################################
+# Order-only phony target for 4_app
+
+build cmake_object_order_depends_target_4_app: phony || CMakeFiles/4_app.dir
+
+build CMakeFiles/4_app.dir/4_app.cpp.o: CXX_COMPILER__4_app_unscanned_Debug /Users/krystianfilipek/CLionProjects/Cpp_Projects/4_app.cpp || cmake_object_order_depends_target_4_app
+  DEP_FILE = CMakeFiles/4_app.dir/4_app.cpp.o.d
+  FLAGS = -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/4_app.dir
+  OBJECT_FILE_DIR = CMakeFiles/4_app.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4_app
+
+
+#############################################
+# Link the executable 4_app
+
+build 4_app: CXX_EXECUTABLE_LINKER__4_app_Debug CMakeFiles/4_app.dir/4_app.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/4_app.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 4_app
+  TARGET_PDB = 4_app.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -198,7 +229,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/krystianfilipek/CLionProjects/Cpp_Projects/cmake-build-debug
 
-build all: phony Main How_Old_Am_I 2_app 3_app
+build all: phony Main How_Old_Am_I 2_app 3_app 4_app
 
 # =============================================================================
 # Built-in targets
